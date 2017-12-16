@@ -19,8 +19,8 @@ def stretch_n(bands, lower_percent=1, higher_percent=99):
         out[:, :, i] = t
     return out.astype(np.float32)
     
-output_path = 'D:/Kaggle/Invasive Species/Data/mauka2/'
-file_loc = 'D:/Kaggle/Invasive Species/Data/mauka/'
+output_path = 'D:/Kaggle/Invasive Species/Data2/'
+file_loc = 'D:/Kaggle/Invasive Species/Data/'
 for filename_inp in glob.glob(file_loc + '*.jpg'):
     
     print filename_inp
